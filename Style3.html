@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+<title style="color: crimson;"> My Learning World </title>
+<link rel="stylesheet" href="style.css">
+<style>
+    button{
+        width: 100px;
+        height: 30px;
+        background-color:violet;
+    }
+    button:hover{
+        background-color: orangered;
+    }
+    @media (min-width:600px){
+        body{
+            background-color: rgb(172, 172, 216);
+        }
+      
+    }
+    @media (max-width:599px) {
+        body{
+            background-color: rgb(206, 166, 204);
+        }
+        
+    }
+</style>
+</head>
+<body>
+    <h1> Thanks for Opening MyWorld </h1>
+<form> 
+<div>
+  <h6>  <input type = "text" placeholder="Full Name" name="Name">
+    <input type = "password" placeholder="password" name= "password"> </h6>
+   <h3> <input type = "submit"> </h3>
+</div>
+<DIV> 
+ <h2> Favorite color ? </h2> 
+   <h6> <INPUT type= "radio" name = "color" value="red"> red
+    <input type ="radio" name="color" value="blue"> blue
+    <input type="radio" name="color" value="green"> green
+    <input type="radio" name="color" value="yellow"> yellow </h6>
+</DIV>
+<div>
+    <input name="Country" list="countries" placeholder=" country">
+    <datalist id="countries"> 
+        <option value="Canada"> 
+            <option value="India">
+                <option value="United states">
+                    <option value="Europe">
+                        <option value="Other American country">
+                            <option value ="Other asian country">
+                                <option value ="African country">
+                                    <option value ="Australia">
+                                        <option value="Artic or Antartic">
+                                            <option value ="Newzealand">
+                                            </option>
+                                        </option>
+                                    </option>
+                                </option>
+                            </option>
+                        </option>
+                    </option>
+                </option>
+            </option>
+        </option>
+    </datalist>
+    <input type = "submit">
+</div>
+<div>
+    <h2> Choose your link !! </h2>
+      <h4> <li> <button> <a href="https://www.facebook.com/" > facebook </a> </button> </li>  
+        <li><button> <a href = "https://www.youtube.com/" > youtube</a> </button> </li>
+ </h4>
+<h1> OR  </h1> <h5> If you think the option is any of the following </h5> <h3> 
+    <style>
+        li{
+            border: 2px solid green;
+        }
+    </style>
+     <li> not applicable </li>
+     <li> not interested </li>
+     <li> better not to choose </li></h3>
+     <h5> Then press </h5>
+ <h3> <a href ="https://www.google.com"> Exit </a> </h3>
+</div>
+<div>
+    <table>
+        <style> 
+        table{
+            border-collapse: collapse;
+        }
+        </style>
+        <thead>
+            <tr> <th> Name </th>
+            <th> Weight </th>
+            <th> Date of birth </th> </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <style>
+                    td{
+                        border: 2px solid red;
+                    }
+                </style>
+                <td> <input type ="text" placeholder= "name" name="name"> </td>
+                <td> <input type ="number" placeholder="number" name="number"></td>
+                <td> <input type="date" placeholder="Date" name="date"> </td>
+            </tr>
+        </tbody>
+    </table>
+ <input type = "submit">
+</div>
+</form>
+</body>
+</html>
